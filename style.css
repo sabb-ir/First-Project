@@ -3,6 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(32, 33, 36, 1);
 }
 section{
     position: relative;
@@ -10,7 +11,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 97.5vh;
+    min-height: 100vh;
 }
 section header{
     position: absolute;
@@ -19,21 +20,25 @@ section header{
     display: flex;
     justify-content: flex-end;
     padding: 10px;
-    margin-right: 10px;
+    margin-right: 30px;
 }
 section header ul {
+    
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: -2px;
+    margin-right: 10px;
+    
 }
 section header ul li {
     list-style: none;
-    margin-left: 20px;
+    margin-left: 13px;
 }
 section header ul li a{
-    color: black;
+    color: white;
     text-decoration: none;
-    font-size: 12px;
+    font-size: 10.5px;
 }
 section header ul li img{
     height: 15px;
@@ -41,20 +46,25 @@ section header ul li img{
     
 }
 section header ul li button{
-    background: #4584ef;
+    background: #b4e3e1;
     border: none;
     outline: none;
-    padding: 5px 10px;
-    color: #fff;
-    font-size: 10px;
-    font-weight: bold;
-    border-radius: 3px;
+    padding: 10px 16px;
+    color: #0b0a0a;
+    font-size: 11px;
+    
+    border-radius: 20px;
     cursor: pointer;
 
 }
+section header ul li .material-symbols-outlined{
+    color: #fff;
+    margin-top: 7px;
+}
 .main img{
-    height: 90px;
-    width: 250px;
+    height: 80px;
+    width: 240px;
+    margin-top: -15px;
     color: black;
 
 }
@@ -74,68 +84,76 @@ section .main{
 section .main .searchbox {
     position: relative;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 15px;
 
 }
 section .main .searchbox .search{
     width: 100%;
     padding: 10px;
-    padding-left: 25px;
+    padding-left: 20px;
     padding-right:0;
     border-radius: 30px;
     border: 1px solid#ccc;
     outline: none;
     font-size: 14px;
+    background-color: rgba(32, 33, 36, 1);
 }
 section .main .searchbox .icons{
     position: absolute;
     top: 0;
     width: 100%;
     display: flex;
-    padding: 8px 8px;
+    padding: 14px 14px;
     justify-content: space-between;
     pointer-events: none;
     align-items: center;
+    
 }
-section .main .searchbox .icons img{
-
-    height: 15px;
-    width: 15px;
-    padding-top: 4px;
+section .main .searchbox .icons .material-symbols-outlined{
+    font-size: 15px;
+    margin-top: -3px;
+    margin-right: 5px;
+    color: #e1e1e5;
+    
+    
 }
 section .main .buttons {
-    margin-top: 15px;
+    margin-top: 23px;
 }
 section .main .buttons button{
-    margin: 0 5px;
-    padding: 5px 5px;
-    color: #555;
-    font-size: 10px;
+    margin: 0 3px;
+    padding: 8px 13px;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 0.928);
+    font-size: 12px;
     border: none;
     cursor: pointer;
     border-radius: 1px solid #5555;
     outline: none;
+    background-color: #353434;
 }
 section .main .buttons :hover{
-    border: 1px solid black;
+    border: 1px solid white;
     color: #4584ef;
+    
 }
 section .main .lang{
     margin-top: 10px;
     font-size: 8px;
+    color: #fff;
 }
 section .footer{
     position: absolute;
     bottom: 0;
     left: 0;
     width: 100%;
-    background: white;
+    background: #181818;
 }
 section .footer .row{
     display: flex;
     justify-content: space-between;
     border-top: 1px solid #555;
-    background-color: rgb(228, 230, 230);
+    background-color: #181818;
 }
 section .footer .row ul{
     display: flex;
@@ -145,18 +163,22 @@ section .footer .row ul li{
 }
 section .footer .row ul li a{
     text-decoration: none;
-    font-size: 12px;
-    color: #161515;
-    margin-right: 15px;
+    font-size: 11px;
+    color: #ffffff;
+    padding: 0px 20px;
+    margin-left: -20px;
+   
+    
+    
 }
 section .footer .bd{
     display: flex;
     font-size: 12px;
     margin: 0;
-    border-top: 1px solid #555;
+    
     padding: 12px;
     padding-left: 35px;
-    
-    background-color: rgb(228, 230, 230);
+    color: #fff;
+    background-color: #181818;
 
 }
