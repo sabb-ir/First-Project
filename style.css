@@ -182,3 +182,19 @@ section .footer .bd{
     background-color: #181818;
 
 }
+@media(max-width:768px){
+    section header ul{
+        margin-right: 0px;
+    }
+    section .main .searchbox {
+        width: 70%;
+        margin-right: 15px;
+    }
+    section .footer .row{
+        display: block;
+    }
+    .main img {
+        height: 75px;
+        width: 200px;}
+
+}
