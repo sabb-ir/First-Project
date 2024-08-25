@@ -97,6 +97,7 @@ section .main .searchbox .search{
     outline: none;
     font-size: 14px;
     background-color: rgba(32, 33, 36, 1);
+    color: #fff;
 }
 section .main .searchbox .icons{
     position: absolute;
